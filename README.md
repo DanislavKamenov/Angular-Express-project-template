@@ -1,7 +1,7 @@
 # Angular-Express-project-template
 A basic project skeleton setup with Angular as a Front-End framework and Express as a Back-End framework.
 
-#Contents:
+# Contents:
 - Basic Angular configurations
 - Initial project architecture
 - Express server with mock data for API testing
