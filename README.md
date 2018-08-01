@@ -7,8 +7,8 @@ MongoDB. If you do not have MongoDB installed on your machine follow the instruc
 
 # The project comes with:
 
-Angular 6 - JavaScript Front-End Framework
-Bootstrap v4.0.0-alpha.6 - HTML/CSS Framework
-Express - JavaScript Web Framework
-MongoDB - Database
-Mongoose - ORM Framework
+- Angular 6 - JavaScript Front-End Framework
+- Bootstrap v4.0.0-alpha.6 - HTML/CSS Framework
+- Express - JavaScript Web Framework
+- MongoDB - Database
+- Mongoose - ORM Framework
