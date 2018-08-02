@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { UserService } from './components/core/services/user.service';
+import { AuthService } from './components/core/services/auth.service';
 
 @Component({
     selector: 'app-root',
@@ -10,10 +10,10 @@ import { UserService } from './components/core/services/user.service';
 export class AppComponent implements OnInit {
     title = 'app';
 
-    constructor(private http: HttpClient, private userService: UserService) { }
+    constructor(private http: HttpClient, private authService: AuthService) { }
 
     ngOnInit() {
         //Generic API call to test if everything works. Move to service when developing.
-        this.http.get('/category/all').subscribe((data) => console.log(data));        
+        this.http.get('api/category/all').subscribe((data) => console.log(data));        
     }
 }

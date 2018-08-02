@@ -4,7 +4,7 @@ import { CoreModule } from '../core.module';
 @Injectable({
   providedIn: CoreModule
 })
-export class UserService {
+export class AuthService {
 
   constructor() { 
       console.log('new userService instance');
